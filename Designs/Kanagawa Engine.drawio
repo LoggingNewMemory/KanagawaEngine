@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3">
+  <diagram name="Page-1" id="sn4aAvXIFqjIcF5gTLul">
+    <mxGraphModel dx="1426" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OtXQkIpMER61hMkYa-cl-6" edge="1" parent="1" source="OtXQkIpMER61hMkYa-cl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="OtXQkIpMER61hMkYa-cl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="System Start" vertex="1">
+          <mxGeometry height="60" width="200" x="105" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-8" edge="1" parent="1" source="OtXQkIpMER61hMkYa-cl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="OtXQkIpMER61hMkYa-cl-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Engine Start" vertex="1">
+          <mxGeometry height="60" width="200" x="325" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-10" edge="1" parent="1" source="OtXQkIpMER61hMkYa-cl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OtXQkIpMER61hMkYa-cl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-12" edge="1" parent="1" source="OtXQkIpMER61hMkYa-cl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OtXQkIpMER61hMkYa-cl-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Start to monitor CPU usage" vertex="1">
+          <mxGeometry height="60" width="200" x="545" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-14" edge="1" parent="1" source="OtXQkIpMER61hMkYa-cl-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OtXQkIpMER61hMkYa-cl-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="If CPU Usage is more than 40%" vertex="1">
+          <mxGeometry height="60" width="200" x="220" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-16" edge="1" parent="1" source="OtXQkIpMER61hMkYa-cl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OtXQkIpMER61hMkYa-cl-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="If No (Normal Usage Under 40%)" vertex="1">
+          <mxGeometry height="60" width="200" x="440" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-19" edge="1" parent="1" source="OtXQkIpMER61hMkYa-cl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OtXQkIpMER61hMkYa-cl-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Increase The CPU MinFreq up to 75% of the Freq" vertex="1">
+          <mxGeometry height="60" width="200" x="220" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-20" edge="1" parent="1" source="OtXQkIpMER61hMkYa-cl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OtXQkIpMER61hMkYa-cl-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Set the MaxFreq down to 50% of the Freq" vertex="1">
+          <mxGeometry height="60" width="200" x="440" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-23" edge="1" parent="1" source="OtXQkIpMER61hMkYa-cl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="OtXQkIpMER61hMkYa-cl-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CPU Usage Become Normal" vertex="1">
+          <mxGeometry height="60" width="200" x="220" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-24" edge="1" parent="1" source="OtXQkIpMER61hMkYa-cl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="OtXQkIpMER61hMkYa-cl-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Repeat with loop on 5 seconds to avoid overhead" vertex="1">
+          <mxGeometry height="60" width="200" x="310" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="OtXQkIpMER61hMkYa-cl-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Kanagawa Engine Diagram&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="325" x="263" y="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
